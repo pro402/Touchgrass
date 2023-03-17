@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839039745849",
+    "project_id": "view-biending-app-d4efc",
+    "storage_bucket": "view-biending-app-d4efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839039745849:android:7406a89df700658e98f2e8",
+        "android_client_info": {
+          "package_name": "com.example.viewbiendingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839039745849-tglmnsct9g5jids2qgphj67r9cq1jpfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZ0oInVnSrDxXLN9QIWmIE9nKB0KQERM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839039745849-tglmnsct9g5jids2qgphj67r9cq1jpfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bh"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signin">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Nature"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="This is an app specially built for programmers and Developers as they are majourly busy doing their stuff in a particular position indoors .That tends to put a lot of stress in ones body for that reason we have developed this app .SignIn and enjoy." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                app:helperText="*Required"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                app:helperTextTextColor="#E21818"
+                app:startIconDrawable="@drawable/baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ID"
+                    android:layout_width="286dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/skyyyy"
+                    android:hint="Enter Your ID" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                app:endIconMode="password_toggle"
+                app:helperText="*Required"
+                app:helperTextTextColor="#E21818"
+                android:background="@drawable/skyyyy"
+                app:startIconDrawable="@drawable/baseline_lock_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pass"
+                    android:layout_width="315dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/skyyyy"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/enter"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="sign In"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:backgroundTint="#FF8BDA8E"/>
+            <TextView
+                android:id="@+id/tSUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If SignedUp you may SIGNIN"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#98E8DE"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
